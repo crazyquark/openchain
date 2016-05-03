@@ -12,7 +12,7 @@
   "userSecretsId": "Openchain.Server",
 
   "commands": {
-    "start": "Microsoft.AspNet.Hosting --webroot \"Webroot\" --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:9080"
+    "start": "Microsoft.AspNet.Hosting --webroot \"Webroot\" --server Microsoft.AspNet.Server.Kestrel --server.urls http://localhost:9090"
   },
 
   "frameworks": {

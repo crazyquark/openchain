@@ -1,37 +1,37 @@
-{
-  "version": "0.5.1-*",
-  "description": "Abstractions and public interfaces used by Openchain.",
-  "authors": [ "Flavien Charlon" ],
-  "owners": [ "Coinprism" ],
-  "projectUrl": "https://www.openchain.org/",
-  "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
-  "iconUrl": "https://www.openchain.org/package.png",
-  "copyright": "Copyright \u00A9 2015 Coinprism, Inc.",
-
-  "compilationOptions": {
-    "allowUnsafe": false,
-    "warningsAsErrors": true
-  },
-
-  "dependencies": {
-    "Google.Protobuf": "3.0.0-beta2"
-  },
-
-  "frameworks": {
-    "dotnet5.4": {
-      "dependencies": {
-        "System.Collections": "4.0.11-beta-23516",
-        "System.Linq": "4.0.1-beta-23516",
-        "System.Runtime.Extensions": "4.0.11-beta-23516",
-        "System.Security.Cryptography.Algorithms": "4.0.0-beta-23516"
-      }
-    },
-
-    "net451": {
-      "frameworkAssemblies": {
-        "System.IO": "4.0.0.0",
-        "System.Runtime": "4.0.10.0"
-      }
-    }
-  }
+﻿{
+	"version": "0.5.1-*",
+	"description": "Abstractions and public interfaces used by Openchain.",
+	"authors": [
+		"Flavien Charlon"
+	],
+	"owners": [
+		"Coinprism"
+	],
+	"projectUrl": "https://www.openchain.org/",
+	"licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+	"iconUrl": "https://www.openchain.org/package.png",
+	"copyright": "Copyright © 2015 Coinprism, Inc.",
+	"compilationOptions": {
+		"allowUnsafe": false,
+		"warningsAsErrors": true
+	},
+	"dependencies": {
+		"Google.Protobuf": "3.0.0-beta2"
+	},
+	"frameworks": {
+		"dotnet5.4": {
+			"dependencies": {
+				"System.Collections": "4.0.11-beta-23516",
+				"System.Linq": "4.0.1-beta-23516",
+				"System.Runtime.Extensions": "4.0.11-beta-23516",
+				"System.Security.Cryptography.Algorithms": "4.0.0-beta-23516"
+			}
+		},
+		"net451": {
+			"frameworkAssemblies": {
+				"System.IO": "4.0.0.0",
+				"System.Runtime": "4.0.0.0"
+			}
+		}
+	}
 }

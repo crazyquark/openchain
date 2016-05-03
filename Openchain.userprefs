@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="src/Openchain/Openchain.xproj">
+  <DisabledProjects>
+    <String>tools/Openchain.SqlServer.Schema/Openchain.SqlServer.Schema.sqlproj</String>
+    <String>test/Openchain.Abstractions.Tests/Openchain.Abstractions.Tests.xproj</String>
+    <String>test/Openchain.Infrastructure.Tests/Openchain.Infrastructure.Tests.xproj</String>
+    <String>test/Openchain.Sqlite.Tests/Openchain.Sqlite.Tests.xproj</String>
+    <String>test/Openchain.SqlServer.Tests/Openchain.SqlServer.Tests.xproj</String>
+    <String>test/Openchain.Validation.PermissionBased.Tests/Openchain.Validation.PermissionBased.Tests.xproj</String>
+    <String>src/Openchain.SqlServer/Openchain.SqlServer.xproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Openchain.Abstractions/Messages.cs">
+    <Files>
+      <File FileName="src/Openchain.Abstractions/Messages.cs" Line="61" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
